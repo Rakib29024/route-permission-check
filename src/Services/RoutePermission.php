@@ -1,6 +1,6 @@
 <?php
 
-namespace Rakib29024\Services;
+namespace Rakib29024\Permission\Services;
 
 class RoutePermission
 {

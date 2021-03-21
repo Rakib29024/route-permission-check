@@ -1,6 +1,6 @@
 <?php
 
-namespace Rakib29024\Facades;
+namespace Rakib29024\Permission\Facades;
 
 class Permission
 {
