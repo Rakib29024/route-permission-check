@@ -3,7 +3,7 @@
 namespace Rakib29024\Permission;
 
 use Illuminate\Support\ServiceProvider;
-use Rakib29024\Services\RoutePermission;
+use Rakib29024\Permission\Services\RoutePermission;
 
 class RoutePermissionServiceProvider extends ServiceProvider
 {
