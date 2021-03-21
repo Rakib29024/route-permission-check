@@ -1,7 +1,7 @@
 {
     "name": "rakib29024/route-permission-check",
     "type": "library",
-    "description": "This package is to verify user route permission with canView mwthod",
+    "description": "This package is to verify user route permission with canView method",
     "keywords": ["permission","route","canView"],
     "license": "MIT",
     "authors": [
