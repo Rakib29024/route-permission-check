@@ -12,7 +12,8 @@ class RoutePermission
             $key=end($list);
             if($key=='index'){
                 $previous_key=$list[count($list)-2];
-                $key=$previous_key.$key;
+                $previous_key=str_replace('-','_',$previous_key);
+                $key=$previous_key.'_'.$key;
             }
             if(canViewRoute($routes[$i],'route')){
                 $data[$key]=$routes[$i];
